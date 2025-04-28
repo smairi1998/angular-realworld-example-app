@@ -21,7 +21,7 @@ interface AuthForm {
 @Component({
   selector: "app-auth-page",
   templateUrl: "./auth.component.html",
-  imports: [RouterLink, NgIf, ListErrorsComponent, ReactiveFormsModule],
+  imports: [RouterLink, ListErrorsComponent, ReactiveFormsModule],
   standalone: true,
 })
 export default class AuthComponent implements OnInit {
